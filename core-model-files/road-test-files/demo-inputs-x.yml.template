@@ -1,0 +1,15 @@
+---
+# This file defines uncertainty values for the files-based
+# Road Test example.  It is intentionally a complex way
+# to implement this Python-based model, designed to
+# demonstrate how to use a files-based model called
+# from the command line.
+alpha: __EMAT_PROVIDES_VALUE__ALPHA__
+beta: __EMAT_PROVIDES_VALUE__BETA__
+input_flow: __EMAT_PROVIDES_VALUE__INPUT_FLOW__
+value_of_time: __EMAT_PROVIDES_VALUE__VALUE_OF_TIME__
+labor_unit_cost_expansion: __EMAT_PROVIDES_VALUE__LABOR_UNIT_COST_EXPANSION__
+materials_unit_cost_expansion: __EMAT_PROVIDES_VALUE__MATERIALS_UNIT_COST_EXPANSION__
+interest_rate: __EMAT_PROVIDES_VALUE__INTEREST_RATE__
+yield_curve: __EMAT_PROVIDES_VALUE__YIELD_CURVE__
+...
